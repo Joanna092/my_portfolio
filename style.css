@@ -1,3 +1,8 @@
+body {
+  font-family: 'Amatic SC', cursive;
+}
+
+
 .navbar-brand {
   width:8%;
 }
@@ -16,7 +21,6 @@
   font-size: 40px;
   font-weight: 600;
   padding-right: 40px !important;
-  font-family: 'Amatic SC', sans-serif;
   color: black;
 }
 
@@ -87,8 +91,20 @@
   font-family: 'Bad Script', cursive;
 }
 
+
+
 @media (max-width: 768px) {
   #skills {
     margin-top: 40px;
     }
   }
+
+#portfolio {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.portfolio_image:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.03);
+    }
